@@ -1,7 +1,7 @@
 {
-  "name": "hexo-generator-tag",
-  "version": "0.2.0",
-  "description": "Tag generator for Hexo.",
+  "name": "hexo-generator-root-tag",
+  "version": "0.1.0",
+  "description": "hierarchical tags generator for Hexo.",
   "main": "index",
   "scripts": {
     "eslint": "eslint .",
@@ -11,14 +11,13 @@
   "directories": {
     "lib": "./lib"
   },
-  "repository": "hexojs/hexo-generator-tag",
-  "homepage": "http://hexo.io/",
+  "repository": "",
   "keywords": [
     "hexo",
     "generator",
     "tag"
   ],
-  "author": "Tommy Chen <tommy351@gmail.com> (http://zespia.tw)",
+  "author": "watahani<haniyama.wataru@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "chai": "^4.2.0",

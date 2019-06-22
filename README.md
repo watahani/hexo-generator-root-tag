@@ -1,23 +1,25 @@
-# hexo-generator-tag
-
-[![Build Status](https://travis-ci.org/hexojs/hexo-generator-tag.svg?branch=master)](https://travis-ci.org/hexojs/hexo-generator-tag)  [![NPM version](https://badge.fury.io/js/hexo-generator-tag.svg)](http://badge.fury.io/js/hexo-generator-tag) [![Coverage Status](https://img.shields.io/coveralls/hexojs/hexo-generator-tag.svg)](https://coveralls.io/r/hexojs/hexo-generator-tag?branch=master)
+# hexo-generator-root-tag
 
 Tag generator for [Hexo].
 
 ## Installation
 
 ``` bash
-$ npm install hexo-generator-tag --save
+$ npm install watahani/hexo-generator-root-tag --save
 ```
 
 ## Options
 
 ``` yaml
-tag_generator:
-  per_page: 10
+root_tag_option:
+  root_tag_names:
+    - Azure AD
+    - AAD Connect
+    - AD FS
+    - 情報採取
+  sub_tag_limit: 10
+  sub_tag_sort: 'name' # 未実装 ```
 ```
-
-- **per_page**: Posts displayed per page. (0 = disable pagination)
 
 ## License
 
