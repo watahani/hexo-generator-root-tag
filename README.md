@@ -18,7 +18,7 @@ root_tag_option:
     - AD FS
     - 情報採取
   sub_tag_limit: 10
-  sub_tag_sort: 'name' # 未実装 ```
+  sub_tag_sort: 'name' # 未実装
 ```
 
 ## License
