@@ -5,7 +5,7 @@ Tag generator for [Hexo].
 ## Installation
 
 ``` bash
-$ npm install watahani/hexo-generator-root-tag --save
+$ npm install jpazureid/hexo-generator-root-tag --save
 ```
 
 ## Options
