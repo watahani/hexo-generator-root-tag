@@ -1,6 +1,6 @@
 # hexo-generator-root-tag
 
-Tag generator for [Hexo].
+Tag generator for [Hexo](https://hexo.io/).
 
 ## Installation
 
@@ -11,7 +11,7 @@ $ npm install jpazureid/hexo-generator-root-tag --save
 ## Options
 
 ``` yaml
-root_tag_option:
+root_tag_generator:
   root_tag_names:
     - Azure AD
     - AAD Connect
